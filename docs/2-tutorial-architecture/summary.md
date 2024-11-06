@@ -6,8 +6,7 @@ sidebar_position: 5
 
 :::tip Main Points
 
-- This tutorial provides both overview and technical details
-- The purpose of HLA is interoperability and reuse
-- HLA enables simulations to interoperate in a federation of systems
-- HLA originated in the defense sector but is today increasingly used in civilian applications
-- The HLA standard is part of policies, for example in NATO HLA enables a marketplace for simulations
+- The HLA topology is a **Service Bus**
+- Important terms in HLA are: **RTI**, **Federate**, **Federation**, **Federation Object Model**, and **Federation Execution**
+- The **Federation Agreement** is a document that specifies the design of a particular federation for a particular purpose
+- The **Federation Object Model (FOM)** is the language of the Federation
