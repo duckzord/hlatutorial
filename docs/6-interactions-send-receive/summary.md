@@ -6,8 +6,6 @@ sidebar_position: 5
 
 :::tip Main Points
 
-- This tutorial provides both overview and technical details
-- The purpose of HLA is interoperability and reuse
-- HLA enables simulations to interoperate in a federation of systems
-- HLA originated in the defense sector but is today increasingly used in civilian applications
-- The HLA standard is part of policies, for example in NATO HLA enables a marketplace for simulations
+- To be able to reference an Interaction class we need to retrieve a handle for the class
+- To be able to send and receive interaction of a particular class we need to publish and subscribe to that class
+- Before the data can be sent we need to encode it according to the FOM, for example using the Encoding Helpers

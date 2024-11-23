@@ -2,12 +2,12 @@
 sidebar_position: 1
 ---
 
-# Overview
+# Federation Object Model Overview
 
 We will now create a FOM for this federation. It will describe the information that needs to be exchanged between federates. The FOM will thus not contain all of the internal data of the federates. The exchanged data will be modeled as object classes and interaction classes. Object classes have attributes that can be updated over time. Interaction classes only exist for a short moment. Note that the FOM describes object classes, not the object instances.
 
 The following shared information will be modeled in our sample:
-
+
 - A number of messages to start and stop the simulation and to manage the scenario will be modeled as Interaction Classes.
 - A number of data types for attributes and parameters will also be modeled
 
@@ -15,7 +15,7 @@ The following shared information will be modeled in our sample:
 
 Before we can start exchanging data we need a FOM, which this chapter takes a closer look at. The FOM is implemented as an XML file but it can also be displayed as tables, for example in the HLA standard or in various report formats. In this case we will visualize the FOM in the FOM editing program Pitch Visual OMT.
 We will now develop the following items:
-
+
 - The Identification table
 - Interactions with parameters
 - Data types

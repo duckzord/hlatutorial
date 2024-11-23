@@ -16,8 +16,8 @@ Let’s take a closer look at the LoadScenario interaction.
 
 This interaction will be both Published and Subscribed to by federates in the
 federation. There are two parameters:
-- **ScenarioName**, which uses the predefined data type HLAunicodeString.
- - **InitialFuelAmount**, which uses a user-defined data type called FuelInt32.
+- **ScenarioName**, which uses the predefined data type HLAunicodeString.
+- **InitialFuelAmount**, which uses a user-defined data type called FuelInt32.
 
 There are also additional properties of an interaction that will be introduced later in this tutorial.
 

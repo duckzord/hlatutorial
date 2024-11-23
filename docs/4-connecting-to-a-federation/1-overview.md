@@ -2,9 +2,7 @@
 sidebar_position: 1
 ---
 
-# Overview 
-
-### Getting Connected
+# Getting Connected
 
 This chapter shows how to connect to the federation and how to leave it. It gives an overview of the services without getting into detail about all exceptions or data types. For a complete description, see the HLA standard. You may also want to look at the C++ and Java APIs and code samples at the end of this chapter.
 
