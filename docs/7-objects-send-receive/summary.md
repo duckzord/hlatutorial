@@ -6,8 +6,8 @@ sidebar_position: 5
 
 :::tip Main Points
 
-- This tutorial provides both overview and technical details
-- The purpose of HLA is interoperability and reuse
-- HLA enables simulations to interoperate in a federation of systems
-- HLA originated in the defense sector but is today increasingly used in civilian applications
-- The HLA standard is part of policies, for example in NATO HLA enables a marketplace for simulations
+- To be able to reference an object class we need to retrieve a handle for the class. We also need handles for the attributes
+- To be able to register and discover objects of a particular class as well as update/reflect attributes we need to publish and subscribe to it
+- The UpdateAttributeValues is used to send an update for a set of attributes for a specific object instance
+- Updates are typically sent when the value has changed or when another federate needs and update.
+- Your federate receives the ReflectAttributeValues with updated attribute values for attributes that is subscribes to
