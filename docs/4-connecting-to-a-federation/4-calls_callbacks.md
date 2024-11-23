@@ -48,7 +48,3 @@ Read more about Disconnect in section 4.3 of the HLA Interface Specification.
 Once your federate is connected it can also call the List Federation Executions service, which returns a list of all available federations for this RTI.
 
 Your federate may also become disconnected during the execution due to external issues like communication failures, broken cables, etc. In this case all RTI calls will throw the Not Connected exception. In this case you need to Connect again. This is described in the Fault Tolerance section of this tutorial.
-
-### Practical Exercise
-
-Reference the lab?
