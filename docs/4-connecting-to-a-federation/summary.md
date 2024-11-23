@@ -6,8 +6,7 @@ sidebar_position: 5
 
 :::tip Main Points
 
-- This tutorial provides both overview and technical details
-- The purpose of HLA is interoperability and reuse
-- HLA enables simulations to interoperate in a federation of systems
-- HLA originated in the defense sector but is today increasingly used in civilian applications
-- The HLA standard is part of policies, for example in NATO HLA enables a marketplace for simulations
+-The Fuel Economy Federation is introduced.
+- HLA functionality of an application should be separated out into an HLA module
+- Initially your federate needs to Connect, Create a Federation Execution and Join.
+- Finally the federate needs to Resign, Destroy the Federation Execution and Disconnect
