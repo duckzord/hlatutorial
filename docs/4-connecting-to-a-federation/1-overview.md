@@ -16,9 +16,9 @@ In this case A-Brand will simulate their 319 and 440d models whereas B-Brand wil
 
 The following information is available about our example federation:
 
-Appendix A: The Federation Agreement
-Appendix B: The Federation Object Model (FOM)
-Appendix C: A description of the Federates and the File Formats.
+- The Federation Agreement
+- The Federation Object Model (FOM)
+- A description of the Federates and the File Formats.
 
 You are encouraged to refer to them while reading this tutorial.
 

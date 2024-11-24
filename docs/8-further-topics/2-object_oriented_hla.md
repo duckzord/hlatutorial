@@ -82,3 +82,12 @@ myUpdater.sendUpdate();
 ```
 
 Finally, here is some code that loops through all cars in the federation and prints out their name and fuel level.
+
+```cpp
+for (HlaCar car : _hlaWorld.getHlaCarManager().getCars())
+{
+    print(“Car “ + car.getName() + “ has fuel level “ + car.getFuelLevel());
+}
+```
+
+The above is just a sample of object-oriented HLA. Different products use different approaches. A federate that uses object oriented HLA looks just like any other federate when used in a federation. You can freely mix federates that use object oriented HLA with traditional federates.

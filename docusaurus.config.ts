@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'The HLA Tutorial',
   tagline: 'Learn HLA!',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/hla_evolved.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -69,7 +69,7 @@ const config: Config = {
       title: 'The HLA Tutorial',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/hla_evolved.png',
       },
       items: [
         {
@@ -78,7 +78,6 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -118,10 +117,6 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
