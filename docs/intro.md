@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### Foreword
 
-![Björn Möller](../img/bjorn_moller_profile.png)
+![Björn Möller](./img/bjorn_moller_profile.png)
 
 “The High-Level Architecture is a powerful technology for developing distributed simulations. It is amazing to see how people use it to make simulations work together in many different domains, to create simulations that have never been created before.
 
